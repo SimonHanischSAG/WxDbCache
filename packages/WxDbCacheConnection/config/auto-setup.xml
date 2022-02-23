@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<autoConfig>
+		<adapter>
+			<connection alias="wx.dbcache.connection:DbCache" autoStart="true">
+				<packageName>WxDbCacheConnection</packageName>
+				<adapterTypeName>JDBCAdapter</adapterTypeName>
+				<connectionFactoryType>com.wm.adapter.wmjdbc.connection.JDBCConnectionFactory</connectionFactoryType>
+				<connectionManagerSettings>
+					<poolable>true</poolable>
+					<minimumPoolSize>0</minimumPoolSize>
+					<maximumPoolSize>15</maximumPoolSize>
+					<poolIncrementSize>5</poolIncrementSize>
+					<blockingTimeout>10000</blockingTimeout>
+					<expireTimeout>60000</expireTimeout>
+					<startupRetryCount>10</startupRetryCount>
+					<startupBackoffSecs>10</startupBackoffSecs>
+				</connectionManagerSettings>
+				<connectionSettings>
+					<transactionType>LOCAL_TRANSACTION</transactionType>
+					<datasourceClass>oracle.jdbc.pool.OracleConnectionPoolDataSource</datasourceClass>
+					<serverName>${DbCache.serverName}</serverName>
+					<user>${DbCache.user}</user>
+					<password>${DbCache.password}</password>
+					<databaseName>${DbCache.databaseName}</databaseName>
+					<portNumber>${DbCache.portNumber}</portNumber>
+					<otherProperties>${DbCache.otherProperties}</otherProperties>
+				</connectionSettings>
+			</connection>
+		</adapter>
+	</autoConfig>
+</config>

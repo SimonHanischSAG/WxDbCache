@@ -1,0 +1,6 @@
+DbCache.serverName=localhost
+DbCache.user=esbadm
+DbCache.password=[[encrypted:DbCache.password]]
+DbCache.databaseName=
+DbCache.portNumber=1521
+DbCache.otherProperties=driverType=thin;connectionProperties={includeSynonyms=true};serviceName=XE
