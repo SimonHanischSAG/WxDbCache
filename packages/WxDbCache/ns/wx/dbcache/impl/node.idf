@@ -5,4 +5,20 @@
   <value name="node_subtype">unknown</value>
   <value name="node_nsName">wx.dbcache.impl</value>
   <value name="is_public">false</value>
+  <value name="encodeutf8">true</value>
+  <value name="shared">CnByaXZhdGUgc3RhdGljIHZvaWQgbG9nVGltZShTdHJpbmcgcG9zaXRpb24sIGxvbmcgb2Zmc2V0
+KSB7CgkKCUpvdXJuYWxMb2dnZXIubG9nKDQsICBKb3VybmFsTG9nZ2VyLkZBQ19GTE9XX1NWQywg
+Sm91cm5hbExvZ2dlci5FUlJPUiwgIld4RGJDYWNoZSIsIHBvc2l0aW9uICsgIjogIiArIG9mZnNl
+dCk7Cn0KCQ==</value>
+  <value name="extends"></value>
+  <array name="implements" type="value" depth="1">
+  </array>
+  <array name="imports" type="value" depth="1">
+    <value>com.wm.util.JournalLogger</value>
+    <value>com.wm.app.b2b.server.InvokeState</value>
+    <value>com.wm.app.b2b.server.Session</value>
+    <value>com.wm.lang.ns.NSName</value>
+    <value>java.io.IOException</value>
+    <value>com.softwareag.util.IDataMap</value>
+  </array>
 </Values>
