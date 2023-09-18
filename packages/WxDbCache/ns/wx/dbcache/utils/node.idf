@@ -5,18 +5,28 @@
   <value name="node_subtype">unknown</value>
   <value name="node_nsName">wx.dbcache.utils</value>
   <value name="is_public">false</value>
-  <value name="shared"></value>
+  <value name="shared">cHJpdmF0ZSBzdGF0aWMgdm9pZCBsb2dUaW1lKFN0cmluZyBwb3NpdGlvbiwgbG9uZyBvZmZzZXQp
+IHsKCQoJSm91cm5hbExvZ2dlci5sb2coNCwgIEpvdXJuYWxMb2dnZXIuRkFDX0ZMT1dfU1ZDLCBK
+b3VybmFsTG9nZ2VyLkVSUk9SLCAiV3hEYkNhY2hlIiwgcG9zaXRpb24gKyAiOiAiICsgb2Zmc2V0
+KTsKfQk=</value>
   <value name="encodeutf8">true</value>
   <value name="extends"></value>
   <array name="implements" type="value" depth="1">
   </array>
   <array name="imports" type="value" depth="1">
+    <value>com.wm.lang.ns.NSName</value>
+    <value>com.wm.util.JournalLogger</value>
+    <value>com.wm.app.b2b.server.InvokeState</value>
+    <value>com.wm.app.b2b.server.Session</value>
     <value>java.io.ByteArrayInputStream</value>
     <value>java.io.ByteArrayOutputStream</value>
     <value>java.io.IOException</value>
     <value>java.io.ObjectInputStream</value>
     <value>java.io.ObjectOutputStream</value>
     <value>java.io.Serializable</value>
+    <value>java.util.Calendar</value>
+    <value>java.util.Date</value>
+    <value>com.softwareag.g11n.text.DateUtils</value>
     <value>com.softwareag.util.IDataMap</value>
   </array>
 </Values>

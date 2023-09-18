@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<autoConfig>
+        <cacheManager name="WxDbCacheInternalCM" 
+            autoStart="true">
+            <cache name="WxDbCacheInternalCache"
+                maxElementsInMemory="1000000"
+                eternal="true"
+                cacheLoaderTimeoutMillis="1000">
+            </cache>
+        </cacheManager>
+	</autoConfig>
+</config>
