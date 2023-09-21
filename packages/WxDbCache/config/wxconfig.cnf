@@ -1,1 +1,4 @@
 wx.config.incl=auto-setup.xml
+
+pushWriteToOtherNodes.ifcname=<yourNamespace>
+pushWriteToOtherNodes.svcname=pushWriteToOtherNodes

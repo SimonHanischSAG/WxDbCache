@@ -9,5 +9,17 @@
                 cacheLoaderTimeoutMillis="1000">
             </cache>
         </cacheManager>
+
+		<scheduler description="Cleanup WxDbCache">
+			<type>repeating</type>
+			<service>wx.dbcache.admin:cleanupOutdatedEntries</service>
+			<runAsUser>Administrator</runAsUser>
+			<intervalSeconds>900</intervalSeconds>
+			<lateness>1</lateness>
+		    <latenessAction>1</latenessAction>
+			<doNotOverlap>true</doNotOverlap>
+			<autoResume>true</autoResume>
+			<target>any</target>
+		</scheduler>
 	</autoConfig>
 </config>
